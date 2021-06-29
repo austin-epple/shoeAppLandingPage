@@ -1,0 +1,20 @@
+#brand{
+    margin: 0;
+    padding: 12px 0;
+    float: left;
+    @include transition15;
+    @media (max-width: $breakpoint-tablet) {
+        padding: 0;
+        width: 100px;
+    }
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    h1{
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+    }
+}
